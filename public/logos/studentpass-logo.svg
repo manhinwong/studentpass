@@ -1,0 +1,16 @@
+<svg viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg">
+  <!-- Black rounded rectangle background -->
+  <rect x="64" y="86" width="232" height="188" rx="40" fill="#000000"/>
+
+  <!-- White student card with graduation cap -->
+  <!-- Card body -->
+  <rect x="92" y="114" width="104" height="60" fill="#ffffff"/>
+
+  <!-- Graduation cap -->
+  <rect x="92" y="102" width="104" height="24" fill="#ffffff"/>
+  <polygon points="196,102 210,110 182,110" fill="#ffffff"/>
+
+  <!-- Two horizontal lines (text placeholders) -->
+  <rect x="92" y="198" width="104" height="8" fill="#ffffff"/>
+  <rect x="92" y="218" width="88" height="8" fill="#ffffff"/>
+</svg>
