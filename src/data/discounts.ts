@@ -278,13 +278,14 @@ export const discounts: Discount[] = [
     id: '22',
     name: "Apple Education Store",
     category: "Software",
-    discountAmount: "~10% off Macs/iPads, 20% off AppleCare+, seasonal promotions",
+    discountAmount: "Discounts up to 20% off",
     description: "Year-round discounts on Macs and iPads, plus seasonal promotions (June-Sept) with free accessories like AirPods or Magic Keyboard",
     howToRedeem: "Shop at apple.com/us/shop/goto/educationrouting, US uses honor system, some countries require UNiDAYS verification",
     verificationRequired: "Yes",
     websiteUrl: "https://www.apple.com/us/shop/goto/educationrouting",
     locationSpecific: false,
-    status: 'Active'
+    status: 'Active',
+    logo: '/logos/apple.png',
   },
   {
     id: '23',
@@ -296,7 +297,8 @@ export const discounts: Discount[] = [
     verificationRequired: "Yes",
     websiteUrl: "https://www.microsoft.com/en-us/education/students",
     locationSpecific: false,
-    status: 'Active'
+    status: 'Active',
+    logo: '/logos/microsoft.png',
   },
   {
     id: '24',
@@ -308,7 +310,8 @@ export const discounts: Discount[] = [
     verificationRequired: "Yes",
     websiteUrl: "https://www.samsung.com/us/shop/discount-program/education/",
     locationSpecific: false,
-    status: 'Active'
+    status: 'Active',
+    logo: '/logos/samsung.png',
   },
   {
     id: '25',
@@ -320,7 +323,8 @@ export const discounts: Discount[] = [
     verificationRequired: "Yes",
     websiteUrl: "https://www.bestbuy.com/site/student-deals",
     locationSpecific: false,
-    status: 'Active'
+    status: 'Active',
+    logo: '/logos/bestbuy.png',
   },
   {
     id: '26',
@@ -332,7 +336,8 @@ export const discounts: Discount[] = [
     verificationRequired: "Yes",
     websiteUrl: "https://www.lenovo.com/us/en/d/deals/students/",
     locationSpecific: false,
-    status: 'Active'
+    status: 'Active',
+    logo: '/logos/lenovo.png',
   },
   {
     id: '27',
@@ -344,7 +349,8 @@ export const discounts: Discount[] = [
     verificationRequired: "Yes",
     websiteUrl: "https://www.nike.com/",
     locationSpecific: false,
-    status: 'Active'
+    status: 'Active',
+    logo: '/logos/nike.png',
   },
   {
     id: '28',
@@ -356,7 +362,8 @@ export const discounts: Discount[] = [
     verificationRequired: "Yes",
     websiteUrl: "https://www.adidas.com/us",
     locationSpecific: false,
-    status: 'Active'
+    status: 'Active',
+    logo: '/logos/adidas.png',
   },
   {
     id: '29',
@@ -368,7 +375,8 @@ export const discounts: Discount[] = [
     verificationRequired: "Yes",
     websiteUrl: "https://www.levi.com/US/en_US/",
     locationSpecific: false,
-    status: 'Active'
+    status: 'Active',
+    logo: '/logos/levis.png',
   },
   {
     id: '30',
@@ -380,7 +388,8 @@ export const discounts: Discount[] = [
     verificationRequired: "Yes",
     websiteUrl: "https://www.urbanoutfitters.com/",
     locationSpecific: false,
-    status: 'Active'
+    status: 'Active',
+    logo: '/logos/urbanoutfitters.png',
   },
   {
     id: '31',
@@ -392,7 +401,8 @@ export const discounts: Discount[] = [
     verificationRequired: "Yes",
     websiteUrl: "https://www.asos.com/",
     locationSpecific: false,
-    status: 'Active'
+    status: 'Active',
+    logo: '/logos/asos.png',
   },
   {
     id: '32',
@@ -404,7 +414,8 @@ export const discounts: Discount[] = [
     verificationRequired: "Yes",
     websiteUrl: "https://www.madewell.com/",
     locationSpecific: false,
-    status: 'Active'
+    status: 'Active',
+    logo: '/logos/madewell.png',
   },
   {
     id: '33',
@@ -416,7 +427,8 @@ export const discounts: Discount[] = [
     verificationRequired: "Yes",
     websiteUrl: "https://www.jcrew.com/",
     locationSpecific: false,
-    status: 'Active'
+    status: 'Active',
+    logo: '/logos/jcrew.png',
   },
   {
     id: '34',
@@ -428,7 +440,8 @@ export const discounts: Discount[] = [
     verificationRequired: "Yes",
     websiteUrl: "https://www.studentuniverse.com/",
     locationSpecific: false,
-    status: 'Active'
+    status: 'Active',
+    logo: '/logos/studentuniverse.png',
   },
   {
     id: '35',
@@ -440,7 +453,8 @@ export const discounts: Discount[] = [
     verificationRequired: "Yes",
     websiteUrl: "https://www.hotels.com/",
     locationSpecific: false,
-    status: 'Active'
+    status: 'Active',
+    logo: '/logos/hotels.png',
   },
   {
     id: '36',
@@ -452,7 +466,8 @@ export const discounts: Discount[] = [
     verificationRequired: "Yes",
     websiteUrl: "https://www.planetfitness.com/",
     locationSpecific: false,
-    status: 'Active'
+    status: 'Active',
+    logo: '/logos/planetfitness.png',
   },
   {
     id: '37',
@@ -464,7 +479,8 @@ export const discounts: Discount[] = [
     verificationRequired: "Yes",
     websiteUrl: "https://classpass.com/",
     locationSpecific: false,
-    status: 'Active'
+    status: 'Active',
+    logo: '/logos/classpass.png',
   },
   {
     id: '38',
@@ -476,7 +492,8 @@ export const discounts: Discount[] = [
     verificationRequired: "Yes",
     websiteUrl: "https://www.notion.so/students",
     locationSpecific: false,
-    status: 'Active'
+    status: 'Active',
+    logo: '/logos/notion.png',
   },
   {
     id: '39',
@@ -488,7 +505,8 @@ export const discounts: Discount[] = [
     verificationRequired: "Yes",
     websiteUrl: "https://www.canva.com/education/",
     locationSpecific: false,
-    status: 'Active'
+    status: 'Active',
+    logo: '/logos/canva.png',
   },
   {
     id: '40',
@@ -500,7 +518,8 @@ export const discounts: Discount[] = [
     verificationRequired: "Yes",
     websiteUrl: "https://education.github.com/pack",
     locationSpecific: false,
-    status: 'Active'
+    status: 'Active',
+    logo: '/logos/github.png',
   },
   {
     id: '41',
@@ -512,7 +531,8 @@ export const discounts: Discount[] = [
     verificationRequired: "Yes",
     websiteUrl: "https://www.jetbrains.com/student/",
     locationSpecific: false,
-    status: 'Active'
+    status: 'Active',
+    logo: '/logos/jetbrains.png',
   },
   {
     id: '42',
@@ -524,7 +544,8 @@ export const discounts: Discount[] = [
     verificationRequired: "Yes",
     websiteUrl: "https://www.autodesk.com/education/home",
     locationSpecific: false,
-    status: 'Active'
+    status: 'Active',
+    logo: '/logos/autodesk.png',
   },
   {
     id: '43',
@@ -536,7 +557,8 @@ export const discounts: Discount[] = [
     verificationRequired: "Yes",
     websiteUrl: "https://www.att.com/",
     locationSpecific: false,
-    status: 'Active'
+    status: 'Active',
+    logo: '/logos/att.png',
   },
   {
     id: '44',
@@ -548,7 +570,8 @@ export const discounts: Discount[] = [
     verificationRequired: "Yes",
     websiteUrl: "https://www.t-mobile.com/",
     locationSpecific: false,
-    status: 'Active'
+    status: 'Active',
+    logo: '/logos/tmobile.png',
   },
   {
     id: '45',
@@ -560,7 +583,8 @@ export const discounts: Discount[] = [
     verificationRequired: "Yes",
     websiteUrl: "https://www.verizon.com/",
     locationSpecific: false,
-    status: 'Active'
+    status: 'Active',
+    logo: '/logos/verizon.png',
   },
   {
     id: '46',
@@ -572,7 +596,8 @@ export const discounts: Discount[] = [
     verificationRequired: "Yes",
     websiteUrl: "https://www.amctheatres.com/",
     locationSpecific: true,
-    status: 'Active'
+    status: 'Active',
+    logo: '/logos/amc.png',
   },
   {
     id: '47',
@@ -584,7 +609,8 @@ export const discounts: Discount[] = [
     verificationRequired: "Yes",
     websiteUrl: "https://www.regmovies.com/",
     locationSpecific: true,
-    status: 'Active'
+    status: 'Active',
+    logo: '/logos/regal.png',
   },
   {
     id: '48',
@@ -596,7 +622,8 @@ export const discounts: Discount[] = [
     verificationRequired: "Yes",
     websiteUrl: "https://seatgeek.com/",
     locationSpecific: false,
-    status: 'Active'
+    status: 'Active',
+    logo: '/logos/seatgeek.png',
   },
   {
     id: '49',
@@ -608,7 +635,8 @@ export const discounts: Discount[] = [
     verificationRequired: "Yes",
     websiteUrl: "https://www.geico.com/",
     locationSpecific: false,
-    status: 'Active'
+    status: 'Active',
+    logo: '/logos/geico.png',
   },
   {
     id: '50',
@@ -620,7 +648,8 @@ export const discounts: Discount[] = [
     verificationRequired: "Yes",
     websiteUrl: "https://www.statefarm.com/",
     locationSpecific: false,
-    status: 'Active'
+    status: 'Active',
+    logo: '/logos/statefarm.png',
   },
   {
     id: '51',
@@ -632,7 +661,8 @@ export const discounts: Discount[] = [
     verificationRequired: "Yes",
     websiteUrl: "https://www.allstate.com/",
     locationSpecific: false,
-    status: 'Active'
+    status: 'Active',
+    logo: '/logos/allstate.png',
   },
   {
     id: '52',
@@ -644,7 +674,8 @@ export const discounts: Discount[] = [
     verificationRequired: "Yes",
     websiteUrl: "https://www.chegg.com/",
     locationSpecific: false,
-    status: 'Active'
+    status: 'Active',
+    logo: '/logos/chegg.png',
   },
   {
     id: '53',
@@ -656,6 +687,7 @@ export const discounts: Discount[] = [
     verificationRequired: "Yes",
     websiteUrl: "https://www.id.me/students",
     locationSpecific: false,
-    status: 'Active'
+    status: 'Active',
+    logo: '/logos/idme.png',
   }
 ];
