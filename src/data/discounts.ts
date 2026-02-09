@@ -190,7 +190,7 @@ export const discounts: Discount[] = [
     discountAmount: 'Free',
     description: 'Museum of modern and contemporary art with 33,000+ works. Free for students 18 and under.',
     howToRedeem: 'First Thursdays: reserve online 2 weeks in advance with Bay Area zip code',
-    verificationRequired: 'Sometimes',
+    verificationRequired: 'Yes',
     websiteUrl: 'https://www.sfmoma.org/',
     locationSpecific: true,
     status: 'Active',
