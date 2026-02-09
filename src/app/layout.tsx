@@ -9,7 +9,7 @@ const geistSans = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "StudentPass - Student Discounts Directory",
+  title: "StudentPass",
   description: "The best student discounts for food, travel, entertainment, and more. All in one place, all verified.",
 };
 

@@ -22,9 +22,9 @@ export default function Home() {
       <header className="bg-white border-b border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
           <div className="flex items-center justify-between">
-            <div className="flex items-center gap-1.5">
-              <img src="/logos/studentpass-logo.png" alt="StudentPass logo" className="w-8 h-8 object-contain translate-y-0.5" />
-              <h1 className="text-xl font-bold text-gray-900">StudentPass</h1>
+            <div className="flex items-center gap-0">
+              <img src="/logos/studentpass-logo.png" alt="StudentPass logo" className="h-20 w-25" />
+              <h1 className="text-2xl font-bold text-gray-900 leading-none object-contain -translate-y-0.5">StudentPass</h1>
             </div>
             <button
               onClick={() => setIsModalOpen(true)}
