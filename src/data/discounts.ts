@@ -379,7 +379,7 @@ export const discounts: Discount[] = [
     logo: '/logos/levis.png',
   },
   {
-    id: '31',
+    id: '30',
     name: "ASOS Student",
     category: "Shopping",
     discountAmount: "10% off",
@@ -392,7 +392,7 @@ export const discounts: Discount[] = [
     logo: '/logos/asos.png',
   },
   {
-    id: '32',
+    id: '31',
     name: "Madewell Student",
     category: "Shopping",
     discountAmount: "15% off",
@@ -405,7 +405,7 @@ export const discounts: Discount[] = [
     logo: '/logos/madewell.png',
   },
   {
-    id: '33',
+    id: '32',
     name: "J.Crew Student",
     category: "Shopping",
     discountAmount: "15% off",
@@ -418,7 +418,7 @@ export const discounts: Discount[] = [
     logo: '/logos/jcrew.png',
   },
   {
-    id: '34',
+    id: '33',
     name: "StudentUniverse",
     category: "Transportation",
     discountAmount: "Up to 30% off flights and hotels",
@@ -431,7 +431,7 @@ export const discounts: Discount[] = [
     logo: '/logos/studentuniverse.png',
   },
   {
-    id: '35',
+    id: '34',
     name: "Hotels.com Student",
     category: "Transportation",
     discountAmount: "10% off",
@@ -444,7 +444,7 @@ export const discounts: Discount[] = [
     logo: '/logos/hotels.png',
   },
   {
-    id: '37',
+    id: '35',
     name: "ClassPass Student",
     category: "Wellness",
     discountAmount: "Discounted membership rates",
@@ -457,7 +457,7 @@ export const discounts: Discount[] = [
     logo: '/logos/classpass.png',
   },
   {
-    id: '38',
+    id: '36',
     name: "AT&T Student",
     category: "Software",
     discountAmount: "Up to 25% off wireless plans",
@@ -470,7 +470,7 @@ export const discounts: Discount[] = [
     logo: '/logos/att.png',
   },
   {
-    id: '40',
+    id: '37',
     name: "Verizon Student",
     category: "Software",
     discountAmount: "Student discounts on select plans",
@@ -483,7 +483,7 @@ export const discounts: Discount[] = [
     logo: '/logos/verizon.png',
   },
   {
-    id: '41',
+    id: '38',
     name: "AMC Theatres Student",
     category: "Entertainment",
     discountAmount: "Discount pricing varies by location",
@@ -496,7 +496,7 @@ export const discounts: Discount[] = [
     logo: '/logos/amc.png',
   },
   {
-    id: '42',
+    id: '39',
     name: "Regal Cinemas Student",
     category: "Entertainment",
     discountAmount: "Discount pricing varies by location",
@@ -509,20 +509,7 @@ export const discounts: Discount[] = [
     logo: '/logos/regal.png',
   },
   {
-    id: '43',
-    name: "SeatGeek Student",
-    category: "Entertainment",
-    discountAmount: "$20 off first purchase",
-    description: "Ticket marketplace for concerts, sports, and theater events",
-    howToRedeem: "Verify through Student Beans or use student promo codes",
-    verificationRequired: "Yes",
-    websiteUrl: "https://seatgeek.com/student-military-discount-tickets",
-    locationSpecific: false,
-    status: 'Active',
-    logo: '/logos/seatgeek.png',
-  },
-  {
-    id: '44',
+    id: '40',
     name: "GEICO Good Student Discount",
     category: "Shopping",
     discountAmount: "Up to 15% off auto insurance",
@@ -535,7 +522,7 @@ export const discounts: Discount[] = [
     logo: '/logos/geico.png',
   },
   {
-    id: '45',
+    id: '41',
     name: "State Farm Good Student Discount",
     category: "Shopping",
     discountAmount: "Up to 25% off auto insurance",
@@ -548,7 +535,7 @@ export const discounts: Discount[] = [
     logo: '/logos/statefarm.png',
   },
   {
-    id: '46',
+    id: '42',
     name: "Allstate Student Discount",
     category: "Shopping",
     discountAmount: "Up to 20% off auto insurance",
@@ -561,7 +548,7 @@ export const discounts: Discount[] = [
     logo: '/logos/allstate.png',
   },
   {
-    id: '47',
+    id: '43',
     name: "Chegg",
     category: "Shopping",
     discountAmount: "Varies - textbook rentals and study help",
@@ -574,7 +561,7 @@ export const discounts: Discount[] = [
     logo: '/logos/chegg.png',
   },
   {
-    id: '48',
+    id: '44',
     name: "ID.me Student",
     category: "Shopping",
     discountAmount: "Varies by brand",
