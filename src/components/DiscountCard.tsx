@@ -33,7 +33,7 @@ export default function DiscountCard({ discount }: DiscountCardProps) {
   const [imgError, setImgError] = useState(false);
 
   return (
-    <div className="group relative bg-white rounded-2xl border border-gray-100 p-6 shadow-sm hover:shadow-lg hover:border-gray-200 transition-all duration-300">
+    <div className="group relative bg-white rounded-2xl border border-gray-100 p-6 shadow-sm hover:shadow-lg hover:border-gray-200 transition-all duration-300 flex flex-col">
       {/* Value Badge */}
       <div className="absolute -top-3 -right-3 bg-gradient-to-r from-emerald-500 to-emerald-600 text-white text-sm font-bold px-3 py-1.5 rounded-full shadow-md">
         {discount.discountAmount}
@@ -68,7 +68,7 @@ export default function DiscountCard({ discount }: DiscountCardProps) {
       </span>
 
       {/* Description */}
-      <p className="text-gray-600 text-sm leading-relaxed mb-4 line-clamp-2">
+      <p className="text-gray-600 text-sm leading-relaxed mb-4 line-clamp-2 flex-grow">
         {discount.description}
       </p>
 
@@ -97,7 +97,7 @@ export default function DiscountCard({ discount }: DiscountCardProps) {
         href={discount.websiteUrl}
         target="_blank"
         rel="noopener noreferrer"
-        className="block w-full text-center bg-gray-900 hover:bg-gray-800 text-white font-medium py-2.5 px-4 rounded-xl transition-colors"
+        className="block w-full text-center bg-gray-900 hover:bg-gray-800 text-white font-medium py-2.5 px-4 rounded-xl transition-colors mt-auto"
       >
         Get Discount
       </a>
