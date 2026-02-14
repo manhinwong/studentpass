@@ -9,7 +9,7 @@ export const discounts: Discount[] = [
     description: '$0 delivery fees on eligible orders, lower service fees, 5% back in Grubhub+ credit on pickup orders',
     howToRedeem: 'Verify through Amazon Prime Student account',
     verificationRequired: 'Yes',
-    websiteUrl: 'https://www.grubhub.com/help/contact-us/grubhub-plus/student',
+    websiteUrl: 'https://www.grubhub.com/about/campus',
     locationSpecific: false,
     status: 'Active',
     logo: '/logos/grubhub.png',
