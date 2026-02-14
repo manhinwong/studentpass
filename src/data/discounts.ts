@@ -74,7 +74,7 @@ export const discounts: Discount[] = [
     description: '$0 delivery fees on food/groceries, up to 10% off eligible deliveries, 6% Uber credits on rides. 4 weeks free trial.',
     howToRedeem: 'Sign up through Uber app, verify student status',
     verificationRequired: 'Yes',
-    websiteUrl: 'https://www.uber.com/us/en/u/uber-one/',
+    websiteUrl: 'https://www.uber.com/us/en/uber-one/student/',
     locationSpecific: false,
     status: 'Active',
     logo: '/logos/uber.png',
